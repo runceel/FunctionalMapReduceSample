@@ -1,0 +1,5 @@
+# WEB+DB PRESS vol67
+let ret1 = zip [0..] [10, 20, 30, 40, 50]
+let mul (i, x) = x * i
+let ret2 = map mul ret1
+foldl (+) 0 ret2

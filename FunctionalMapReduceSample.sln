@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSSample", "CSSample\CSSample.csproj", "{3133AFE1-AFF4-44AD-8476-FF53515F2E7F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C967839F-6B69-4BFB-8335-D49CE3BF0958}"
+	ProjectSection(SolutionItems) = preProject
+		original.txt = original.txt
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3133AFE1-AFF4-44AD-8476-FF53515F2E7F}.Debug|x86.ActiveCfg = Debug|x86
+		{3133AFE1-AFF4-44AD-8476-FF53515F2E7F}.Debug|x86.Build.0 = Debug|x86
+		{3133AFE1-AFF4-44AD-8476-FF53515F2E7F}.Release|x86.ActiveCfg = Release|x86
+		{3133AFE1-AFF4-44AD-8476-FF53515F2E7F}.Release|x86.Build.0 = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
