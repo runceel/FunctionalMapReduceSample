@@ -1,11 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Reactive.Linq;
-
-namespace CSSample
+﻿namespace CSSample
 {
+    using System;
+    using System.Reactive.Linq;
+
     class Program
     {
         static void Main(string[] args)
