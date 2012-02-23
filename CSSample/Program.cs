@@ -1,7 +1,6 @@
 ﻿namespace CSSample
 {
     using System;
-    using System.Reactive.Linq;
     using System.Linq;
 
     class Program
@@ -10,7 +9,7 @@
         static void Main(string[] args)
         {
             var ret = EnumerableEx
-                // 無限リスト?
+                // 無限リスト
                 .Generate(0, _ => true, i => i + 1, i => i)
                 // Tuple化
                 .Zip(new[] { 10, 20, 30, 40, 50 }, Tuple.Create)
